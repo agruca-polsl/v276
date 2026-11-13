@@ -1,5 +1,7 @@
 ## PMLR Proceedings Initial Submission
 
+> **Note**: GitHub Actions runs `pmlint` (BibTeX/PDF intake) on initial submission pull requests. Wait for that check to be green, or run `pmlint --check` locally first. The separate `pmlint-posts` check only runs if `_posts/` files change and does not apply to this initial submission.
+
 ### Conference Information
 - **Conference Name**: NeurIPS 2025 Competition Track (Neural Information Processing Systems, 39th)
 - **Volume Number**: 276
@@ -34,6 +36,7 @@ Please confirm that you have completed the following requirements by checking al
   - [ ] Validating the BibTeX file syntax
   - [ ] Ensuring all required metadata is present and correctly formatted
   - [ ] Confirming all paper identifiers are unique and follow the naming convention
+  - [ ] `pmlint --check` passes locally, or wait for the GitHub Actions pmlint check to be green
 
 - [ ] Permission forms:
   - [ ] Collected from all authors
@@ -41,4 +44,4 @@ Please confirm that you have completed the following requirements by checking al
   - [ ] Will be provided separately to the editor.
 
 ### Additional Comments
-<!-- please place any additional information for the PMLR Series Editors here --
+<!-- please place any additional information for the PMLR Series Editors here -->
